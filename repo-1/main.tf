@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "ehole-drifter-tfstate"
+    bucket = "ehole-drifter-tfstate-1"
     prefix = "repo-1/state"
   }
 }
